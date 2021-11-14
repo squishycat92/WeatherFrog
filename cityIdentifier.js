@@ -3,11 +3,11 @@
 // icon-color: light-gray; icon-glyph: magic;
 // Create your ID on openweathermap.org
 // Get your api from there and set that in API_WEATHER
-// Add your API KEY and the run the scritp in the scriptable app
-// The City ID for your current location will appear in the log section of the app. 
+// Add your API key and the run the script in the scriptable app
+// The City ID for your current location will appear in the log section of Scriptable (accessed through the three dots). 
 
 //API_KEY
-let API_WEATHER = "YOUR_API_KEY";//Load Your api here
+let API_WEATHER = "YOUR_API_KEY"; // Paste your API Key here
 
 Location.setAccuracyToBest();
 let curLocation = await Location.current();
